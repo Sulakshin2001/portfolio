@@ -5,13 +5,13 @@ export const Main = () => {
         <div className={styles.mainBlock}>
             <div className={styles.container}>
                 <div className={styles.text}>
-                    <span>Hi there</span>
-                    <h1>I am Nikita Sulakshin</h1>
-                    <p>Frontend Developer</p>
+                    <h1 className={styles.name}>Hello I am <span className={styles.Nikita}>Nikita Sulakshin</span><p>Frontend Developer </p>
+
+                    </h1>
                 </div>
                 <div className={styles.photo}>
                     <img className={styles.photo}
-                         src='https://sun9-8.userapi.com/impg/zBsosChAiUwYDsyuCSOsx4ArCFG9bnQhlU8nAQ/yItqAolIGHQ.jpg?size=1620x2160&quality=96&sign=f9890c76be5632057927fa7c2edf56e7&type=album'/>
+                         src='https://sun9-67.userapi.com/impg/k5xHPMzkp_dKpp7sJcp7_jxhkelLzYBZdkftog/UsF4hNQiO7M.jpg?size=825x1100&quality=96&sign=f7e03f99dc2433eaadffce26bc0c6ceb&type=album '/>
                 </div>
             </div>
         </div>

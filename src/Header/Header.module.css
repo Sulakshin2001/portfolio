@@ -1,14 +1,14 @@
 .header {
     height: 80px;
-    background-color: red;
+    background-color: #f8f9fa;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 @media screen and (max-width: 641px){
     .header {
         height: 80px;
-        background-color: red;
+        background-color: #111;
         display: flex;
         justify-content: center;
         align-items: center;

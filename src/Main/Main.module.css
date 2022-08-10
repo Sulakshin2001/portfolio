@@ -1,20 +1,28 @@
 .mainBlock{
-    height: 100vh;
-    background-color: #ffd2ff;
+   background-color:  white;
+    min-height: 90vh;
+
 }
+
+
+
 .text{
-    max-width: 300px;
-    background-color: #ffcb42;
+    max-width: 600px;
+    max-height: 430px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .photo{
-    max-width: 200px;
-    max-height: 400px;
+    margin-top: 100px;
+    max-height: 761px;
+    max-width: 460px;
+    border-radius: 18px;
+
 
 
 }
 .container{
-    border: 1px solid;
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -23,16 +31,43 @@
     justify-content: space-between;
     flex-wrap:wrap;
 }
+
+
+
+.name{
+    color: #1f1f25;
+    font-size: 75px;
+
+}
+.Nikita{
+    color: #f9004d;
+}
+@media screen and (max-width: 1341px){
+    .container{
+        padding:0 25% 0 25%;
+
+
+
+
+    }}
+@media screen and (max-width: 800px){
+    .photo{
+        height: 370px;
+        margin-top: 0px;
+
+    }
+
+    .name{
+        font-size: 50px;
+    }
+
+}
 @media screen and (max-width: 641px){
 
-.container{
-    border: 1px solid;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap:wrap;
-}
+    .container{
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        padding:0 25% 0 25%;
+    }
 }

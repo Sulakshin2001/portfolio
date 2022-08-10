@@ -1,20 +1,43 @@
 .skillBlock{
-    min-height: 100vh;
-    background-color: rgba(228,40,255,0.51);
+    min-height: 20vh;
+    background-color: #f8f9fa;;
 
 }
+.ulDiv{
+    display: flex;
+
+
+}
+
+.ulStyle{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    border-left: 1px solid rgba(0,0,0,.05);
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    align-items: center;
+}
+.liStyle{
+    width: 25%;
+    text-align: center;
+    height: 214px;
+    border-top: 1px solid rgba(0,0,0,.05);
+    border-right: 1px solid rgba(0,0,0,.05);
+    border-left: 1px solid rgba(0,0,0,.05);
+    cursor: pointer;
+    list-style-type: none;
+}
 .container{
-    border: 1px solid;
+
     height: 100%;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: column;
 }
 .skills{
-    border: 1px solid;
+
     width: 100%;
     margin: 10px;
     display: flex;
@@ -23,5 +46,16 @@
 
 }
 .title{
-    background-color: grey;
+    background-color: white;
+    font-size: 60px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+@media screen and (max-width: 634px){
+.ulStyle{
+    flex-direction: column;
+}
+    .liStyle{
+        width: 300px;
+    }
 }

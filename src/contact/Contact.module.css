@@ -1,18 +1,20 @@
 .contact{
-    background-color: aqua;
-    height: 100vh;
+    background-color: #f8f9fa;
+    height: 60vh;
     /*display: flex;
     flex-direction: column;*/
 }
 .form{
     display: flex;
     flex-direction: column;
-    width: 72%;
-    height: 80%;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    width: 590px;
+    height: 402px;
+    margin: 0;
+
 }
 .container{
-    border: 1px solid;
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -22,16 +24,56 @@
     flex-direction: column;
 }
 .input{
-    width: 99%;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
     height: 50px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #1f1f25;
+    font-size: 15px;
+    letter-spacing: .1px;
 
 }
 .textarea{
-    width: 99%;
-    height: 150px;
+    height: 120px;
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    line-height: 46px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #1f1f25;
+    font-size: 15px;
+    letter-spacing: .1px;
 
 }
-button{
+.button{
+
+
     height: 70px;
     width: 160px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    }
+@media screen and (max-width: 830px){
+    .form{
+        width: 100%;
+    }
+
+}
+@media screen and (max-height: 730px){
+   .contact{
+       height: 100vh;
+   }
+
 }

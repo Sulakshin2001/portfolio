@@ -6,12 +6,13 @@ export const Contact = () =>{
             <div className={s.container}>
             <h1>Contact</h1>
             <form className={s.form}>
-                <input className={s.input}/>
-                <input className={s.input}/>
-                <textarea className={s.textarea}/>
+                <input placeholder={'Your name'} className={s.input}/>
+                <input placeholder={'Your email'} className={s.input}/>
+                <textarea placeholder={'Your message'} className={s.textarea}/>
+                <button  className={s.button}><h1>Send</h1></button>
 
             </form>
-                <button className={s.button}>Send</button>
+
         </div>
         </div>
     )
