@@ -15,3 +15,9 @@ a:active{
     color:#ac0404;
 
 }
+@media screen and (max-width: 412px){
+.href{
+    font-size: 12px;
+    padding: 10px;
+}
+}
