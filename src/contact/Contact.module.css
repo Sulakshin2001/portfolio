@@ -64,10 +64,17 @@
     display: flex;
     justify-content: center;
     padding-top: 1px;
+    border: 2px solid #f9004d;
+    background: #f9004d;
+    color: #fff;
     }
 @media screen and (max-width: 830px){
     .form{
-        width: 100%;
+        width: 90%;
+        padding:0 25% 0 25%;
+    }
+    .container{
+        justify-content:flex-start;
     }
 
 }
