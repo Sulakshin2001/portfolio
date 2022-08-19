@@ -49,13 +49,16 @@
 
 
 
-    }*/}
+    }*/
+.container{
+    justify-content: center;
+}}
 @media screen and (max-width: 800px){
 
     .photo{
-        height: 370px;
-        margin-top: 0px;
-        text-align: center;
+        height: 250px;
+        border-radius: 300px; /* Радиус скругления */
+        border: 1px solid black; /* Параметры рамки */
 
     }
 

@@ -58,7 +58,11 @@
     flex-direction: column;
 }
     .liStyle{
-        max-width: 300px;
-        padding:0 15% 0 15%;
+        width: 100%;
+        border-right:none;
+        border-left: none
+    }
+    .container{
+        justify-content: center;
     }
 }

@@ -9,7 +9,7 @@ export const Main = () => {
 
                     </h1>
                 </div>
-                <div className={styles.photo}>
+                <div>
                     <img className={styles.photo}
                          src='https://sun9-67.userapi.com/impg/k5xHPMzkp_dKpp7sJcp7_jxhkelLzYBZdkftog/UsF4hNQiO7M.jpg?size=825x1100&quality=96&sign=f7e03f99dc2433eaadffce26bc0c6ceb&type=album '/>
                 </div>
