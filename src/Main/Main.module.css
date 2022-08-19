@@ -1,7 +1,7 @@
 .mainBlock{
    background-color:  white;
 
-
+    width: 100%;
 }
 
 
@@ -43,14 +43,15 @@
     color: #f9004d;
 }
 @media screen and (max-width: 1341px){
-    .container{
-        padding:0 25% 0 25%;
+/*    .container{
+        padding:0 15% 0 15%
 
 
 
 
-    }}
+    }*/}
 @media screen and (max-width: 800px){
+
     .photo{
         height: 370px;
         margin-top: 0px;

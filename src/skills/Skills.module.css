@@ -1,7 +1,7 @@
 .skillBlock{
     min-height: 20vh;
     background-color: #f8f9fa;;
-
+    width: 100%;
 }
 .ulDiv{
     display: flex;
@@ -50,6 +50,8 @@
     font-size: 60px;
     margin-bottom: 8px;
     text-align: center;
+
+;
 }
 @media screen and (max-width: 634px){
 .ulStyle{
@@ -57,6 +59,6 @@
 }
     .liStyle{
         max-width: 300px;
-        padding:0 30% 0 30%;
+        padding:0 15% 0 15%;
     }
 }
