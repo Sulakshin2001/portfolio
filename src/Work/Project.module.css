@@ -70,6 +70,10 @@
     margin-top: 200px;
     max-height: 100px;
 }
+button:hover {
+    color:white; /* Цвет ссылки при наведении на нее курсора мыши */
+    background-color: #ac0404;
+}
 .all{
 
     background-color: white;
